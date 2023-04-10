@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tanuj-Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navi">
+        <div class = "logo">
+            Portfolio
+        </div>
+        <div class ="menu">
+            <span><a href="#homebox">Home</a></span>
+            <span><a href="#skillsbox">Skills</a></span>
+            <span><a href="#ContactBox">Contact</a></span>
+        </div>
+    </nav>
+    <!---------------home------->
+
+    <div class="home" id="homebox">
+        <div class="about">
+            <span class="text">Hi!, I'm</span><br><span class="name">Tanuj Agarwal</span>
+            <br><span class="content">I'm a Web Developer</span><br>
+            <button class="Download-Button"><a download href="resume.pdf">Resume</a></button>
+        </div>
+        <div class="imga">
+            <img src="home-right.png">
+        </div>
+    </div>
+    <!------------------skills------------>
+    
+    <div class="skills" id="skillsbox">
+        
+        <div class="Skillimg">
+            <h1>My Skills</h1>
+        </div>
+
+        <div class="SkillsDetails">
+            
+            <div class="SkillMoreDetails">
+
+                <div class="SkillsMenuDetails">
+                    <div id="Education"  class="SkillsCols">
+                      <button class="MenuName">Education</button>
+
+                        <ul>
+                            <li>
+                                <h3 class="EducationName">Techno India University <i>[2020-Present]</i></h3>
+                    
+                                <span class="EducationPercentage"><span class="material-symbols-rounded">
+                                </span>Kolkata, West Bengal</span>
+                                
+                                <span class="EducationPercentage"><i>CGPA: 9.2 till 4th Semester</i></span>
+                                        
+                            </li>
+                            <li>
+                                <h3 class="EducationName">Hariyana Vidya Mandir <i>[2020]</i></h3>
+                                
+                                <span class="EducationPercentage"><span class="material-symbols-rounded">
+                                </span>Kolkata, West Bengal</span>
+                                
+                                <span class="EducationPercentage"><i>XII Percentage: 89.50%</i></span>
+                                        
+                            </li>
+                            <li>
+                                <h3 class="EducationName">WWA Cossipore English School<i>[2018]</i></h3>
+                                
+                                <span class="EducationPercentage"><span class="material-symbols-rounded">
+                                </span>Kolkata, West Bengal</span>
+                                
+                                <span class="EducationPercentage"><i>X Percentage: 94.50%</i></span>
+                                        
+                            </li>
+                        </ul>
+    
+                    </div>
+
+
+                    <div id="TechnicalSkills" class="SkillsCols">
+                      <button class="MenuName">Technical Skills</button>
+
+                        <ul>
+                            <li>
+                                <div class="ListStyle1">
+                                    <h3>Programming </h3>
+                                    <ul>
+                                    <li>C, C++, SQL, Java</li>
+                                    </ul>
+                                </div>
+                                
+                            </li>
+    
+                            <li>
+                                <div class="ListStyle1">
+                                    <h3>Web Development</h3>
+                                <ul>
+                                    <li>HTML, CSS</li>
+                                </ul>
+                                </div>
+                            </li>
+    
+                            <li> 
+                                <div class="ListStyle1">
+    
+                                <h3>Fundamentals</h3>
+                                <ul>
+                                    <li>Object Oriented Programming</li>
+                                    <li>Data Structure and Algorithm</li>
+                                    <li>Database Management System</li>
+                                    <li>Computer Network</li>
+                                </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div id="SoftSkills" class="SkillsCols">
+                      <button class="MenuName">Soft Skills</button>
+
+                        <ul>
+                            <li>
+                                <div class="ListStyle1">
+                                    <h3>Language</h3>
+                                    <ul>
+                                    <li>English, Hindi, Bengali</li>
+                                    </ul>
+                                </div>
+                                
+                            </li>
+    
+                            <li>
+                                <div class="ListStyle1">
+    
+                                <h3>Personal Skills</h3>
+                                <ul>
+                                    <li>Leadership, Decision-maker</li>
+                                   
+                                </ul>
+                                </div>
+                            </li>
+    
+                            <li>
+                                <div class="ListStyle1">
+    
+                                <h3>Hobbies</h3>
+                                <ul>
+                                    <li>Swimming</li>
+                                    <li>Listening music</li>
+                                </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+            
+            
+    </div>
+<!-------------contacts----------->
+
+    <div class="ContactContainer" id="ContactBox">
+            
+        <div class="ContactLinks">
+            <span>You can also find me here</span><br>
+             <div class="Sociallinks">
+                <div class="Links">Linkedin - <a href="https://www.linkedin.com/in/tanuj-agarwal-91a1b9243/"><img width="20px" class="image" src="linkedin.png"></a></div>
+                <div class="Links">GitHub - <a href="https://github.com/codertanuj"><img width="20px" class="image" src="github.png"></a></div>
+                <div class="Links">E-mail - <a href="mailto:agarwaltanuj28@gmail.com"><img width="20px" class="image" src="gmail.png"></a></div>
+  
+             </div>   
+        </div>
+  
+        <div class="Contactcolor">
+            <div class="ContactDetails">
+                <form action=""
+                method="POST">
+                    <h3>Contact Me</h3>
+                    <label>Name</label><br>
+                    <input type="text" id="Name" name="username" class="info" required>
+                    <br>
+                    <label>E-mail</label><br>
+                    <input type="email" id="Email" class="info" name="email" required>
+                    <br>
+                    <label>Message me</label><br>
+                    <textarea type="text" id="Message" class="info" name="message" cols="23" rows="5" required>
+                    </textarea>
+                     <br>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
